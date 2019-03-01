@@ -16,7 +16,7 @@ namespace Day7__Tanks_
             Console.Clear();
             Console.SetCursorPosition(0, 0);
             string[] tank_T = new string[14];
-            string path = @"t1.txt";
+            string path = @"C:\Users\Ruslan\Documents\Visual Studio 2015\Projects\Day7 (Tanks)\Day7 (Tanks)\Ref\t1.txt";
             using (StreamReader sr = new StreamReader(path, System.Text.Encoding.Default))
             {
                 for (int i = 0; i < 13; i++)
@@ -33,7 +33,7 @@ namespace Day7__Tanks_
             Console.SetCursorPosition(0, 17);
             Console.WriteLine(t1.GetParam());
             string[] tank_P = new string[14];
-            string path1 = @"t2.txt";
+            string path1 = @"C:\Users\Ruslan\Documents\Visual Studio 2015\Projects\Day7 (Tanks)\Day7 (Tanks)\Ref\t2.txt";
             using (StreamReader sr = new StreamReader(path1, System.Text.Encoding.Default))
             {
                 for (int i = 0; i < 13; i++)
